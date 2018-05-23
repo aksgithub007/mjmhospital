@@ -1,0 +1,969 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MJM Hospital || Career</title>
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--//fonts-->	
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="css/theame1.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive-theme1.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>		
+		<!-- js for news -->
+		<script src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/pignose.layerslider.js"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+				$(window).load(function() {
+					$('#visual').pignoseLayerSlider({
+						play    : '.btn-play',
+						pause   : '.btn-pause',
+						next    : '.btn-next',
+						prev    : '.btn-prev'
+					});
+				});
+			//]]>
+			</script>
+		<!-- /js for news -->
+		
+		<!-- for smooth scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+		</script>
+		<!-- //for smooth scrolling -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="top-strip">
+		<div class="container-fluid">
+						<div class="contact_top">
+				<a href="#" data-toggle="modal" data-target="#applyModal_111" class="btn btn-primary">Request an Appointment</a>
+				<a href="article.html" class="btn btn-primary">Articles</a>
+				<a href="services.html" class="btn btn-primary">Specialities</a>
+				<a href="contact.html" class="btn btn-primary">Contact Us</a>
+				<a href="#"><img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </a>
+
+			</div>
+
+			
+			<!-- Modal -->
+  										<div class="modal fade upper_appointment" id="applyModal_111" role="dialog">
+  										  <div class="modal-dialog modal-lg">
+    										  <div class="modal-content">
+     										   	  <div class="modal-header">
+       										      	<button type="button" class="close" data-dismiss="modal">&times;</button>
+       										      	<div class="modal_top">
+       										      		<div class="logo_m">
+       										      		<img src="img/mjm_logo11.png" alt="logo" title="logo">
+       										      	</div>
+       										      	<div class="text_m">
+       										      		<h2>MJM HOSPITAL PUNE</h2>
+       										      		<!-- <p>Care With Concern</p> -->
+       										      	</div>
+       										      	<div class="clearfix"></div>
+       										      	</div>
+       										      	
+      										   	  </div>
+      										    	<div class="modal-body">
+        										  	    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>Make an appointment</h2>
+			<form action="Appointment111.php" method="post">
+			<div class="left-agileits-w3layouts same">
+			<div class="gaps">
+				<p>First Name</p>
+					<input type="text" name="f_name" placeholder="" required=""/>
+			</div>	
+				<div class="gaps">	
+				<p>Last Name</p>
+					<input type="text" name="l_name" placeholder="" required=""/>
+				</div>
+				<div class="gaps">
+				<p>Email</p>
+						<input type="email" name="email" placeholder="" required="" />
+				</div>	
+				<div class="gaps">	
+				<p>Phone Number</p>
+					<input type="text" name="Number" placeholder="" required=""/>
+				</div>
+				
+			</div>
+			<div class="right-agileinfo same">
+			<div class="gaps">
+				<p>Select Date</p>		
+						<input  id="datepicker1" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+			</div>
+			<div class="gaps">
+				<p>Department</p>	
+					<select class="form-control" name="Department">
+						<option></option>
+						<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+						<option>BREAST SURGERY</option>
+						<option>CARDIOLOGY</option>
+						<option>CANCER SURGERY</option>
+						<option>COSMETIC AND PLASTIC SURGERY</option>
+						<option>CRITICAL CARE MEDICINE</option>
+						<option>ENT</option>
+						<option>GENERAL MEDICINE</option>
+						<option>GENERAL & GI SURGERY</option>
+						<option>GYNECOLOGY & OBSTETRICS</option>
+						<option>HAND SURGERY</option>
+                        <option>INTENSIVE CARE MEDICINE</option>
+						<option>JOINT REPLACEMENT SURGERY</option>
+						<option>LIVER SURGERY</option>
+						<option>NEPHROLOGY</option>
+						<option>NEUROLOGY</option>
+						<option>NEURO SURGERY</option>
+                        <option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+						<option>PAIN MANAGEMENT</option>
+						<option>PAEDIATRICS</option>
+						<option>PAEDIATRICS GASTROENTEROLOGY</option>
+						<option>PAEDIATRICS NEONATOLOGY</option>
+						<option>PAEDIATRIC SURGERY</option>
+						<option>PSYCHIATRY</option>
+						<option>RADIOLOGY</option>
+                        <option>SPINE SURGERY</option>
+						<option>UROLOGY</option> 
+						<option>VASCULAR SURGERY</option>
+
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Gender</p>	
+					<select class="form-control" name="gender">
+						<option></option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Time</p>		
+					<input type="text" id="timepicker" name="Time" class="timepicker form-control" value="">	
+			</div>
+			</div>
+			<div class="clear"></div>
+						  <input type="submit" value="Make an appointment">
+			</form>
+		</div>
+   </div>
+       										    	</div>
+       										    	<!-- <div class="modal-footer">
+        										  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       										    	</div> -->
+     										  </div>
+    										</div>
+ 										 </div>
+  <!-- /*Modal End*/ -->
+			<div class="contact-info">
+				<ul>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+(91)-20-41499999</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a></li>
+				</ul>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<nav class="navbar nav_bottom" role="navigation">
+	 <div class="container-fluid">
+	 <!-- Brand and toggle get grouped for better mobile display -->
+	   <div class="navbar-header nav_2">
+		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="index.html"> <img src="img/mjm_logo.png" alt="MJM Hospital" title="MJM Hospital"></a>                   <!-- Logo Put here -->
+	   </div> 
+	   <!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			<ul class="nav navbar-nav nav_1">
+			  <li><a href="index.html">Home</a></li>
+				<!-- <li class=""><a href="#">About Us</a></li> -->
+				<!-- <li><a href="#">Why Us</a></li> -->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="founders_message.html">Founder’s Dream</a></li>
+					<li><a href="director.html">Management Message</a></li>
+					<li><a href="team.html">Our Management Team</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="facilities.html">Our Facilities</a></li>
+					<!-- <li><a href="technologies.html">Technologies</a></li>
+					<li><a href="instruments.html">Instruments</a></li> -->
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialities<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu specials columns-3" role="menu">
+				  	<div class="container">
+				  		<div class="row">
+                         <div class="col-xs-12 col-sm-5 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                              <li><a href="services.html">ARTHOSCOPY & SHOULDER SURGERY</a></li>
+                              <li><a href="breast_surgery.html">BREAST SURGERY</a></li>
+                              <li><a href="cardiology.html">CARDIOLOGY</a></li>
+                              <li><a href="cancer_surgery.html">CANCER SURGERY</a></li>
+                              <li><a href="cosmetic_plastic_surgery.html">COSMETIC AND PLASTIC SURGERY</a></li>
+                              <li><a href="critical_care_medicine.html">CRITICAL CARE MEDICINE</a></li>
+                              <li><a href="ent.html">ENT</a></li>
+                              <li><a href="general_medicine.html">GENERAL MEDICINE</a></li>
+                              <li><a href="general_gi_surgery.html">GENERAL & GI SURGERY</a></li>
+                              <li><a href="gynecology_obstetrics.html">GYNECOLOGY & OBSTETRICS</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="col-xs-12 col-sm-4 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="hand_surgery.html" >HAND SURGERY</a></li>
+                                <li><a href="intensive_care.html" >INTENSIVE CARE MEDICINE</a></li>
+                                <li><a href="joint_replacement_surgery.html">JOINT REPLACEMENT SURGERY</a></li>
+                                <li><a href="liver_surgery.html">LIVER SURGERY</a></li>
+                                <li><a href="nephrology.html">NEPHROLOGY</a></li>
+                                <li><a href="neurology.html">NEUROLOGY</a></li>
+                                <li><a href="neuro_surgery.html">NEURO SURGERY</a></li>
+                                <li><a href="obesity_surgery.html">OBESITY SURGERY</a></li>
+                                <li><a href="orthopedic_joint_replacement.html">ORTHOPEDIC AND JOINT REPLACEMENT</a></li>
+                                <li><a href="pain_management.html">PAIN MANAGEMENT</a></li>
+                            </ul>
+                          </div>  
+                      </div>
+                      <div class="col-xs-12 col-sm-3 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="paediatrics.html" >PAEDIATRICS</a></li>
+                                <li><a href="paediatrics_gastroenterology.html">PAEDIATRICS GASTROENTEROLOGY</a></li>
+                                <li><a href="paediatrics_neonatology.html">PAEDIATRICS NEONATOLOGY</a></li>
+                                <li><a href="paediatrics_surgery.html">PAEDIATRIC SURGERY</a></li>
+                                <li><a href="psychiatry.html">PSYCHIATRY</a></li>
+                                <li><a href="physiotherapy.html">PHYSIOTHERAPY</a></li>
+                                <li><a href="radiology.html">RADIOLOGY</a></li>
+                                <li><a href="spine_surgery.html">SPINE SURGERY</a></li>
+                                <li><a href="urology.html">UROLOGY</a></li>
+                                <li><a href="vascular_surgery.html">VASCULAR SURGERY</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="clr_float"></div>
+                    </div></div>
+					
+				  </ul>
+				</li>
+				<!-- <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="#">Our Lab<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="career.html">Careers</a></li>
+					<li><a href="404.html">Franchisee</a></li>
+				  </ul>
+				</li> -->
+				<li class="dropdown">
+				  <a href="#news" class="dropdown-toggle" data-toggle="#">News<!-- <span class="caret"></span> --></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="news.html">News</a></li>
+					<li><a href="faq.html">Faq</a></li>
+					<li><a href="mobile-app.html">App</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="shortcodes.html">Shortcodes</a></li>
+					<li><a href="privacy_policy.html">Privacy Policy</a></li>
+				  </ul>
+				</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				 <li class="current_page"><a href="career.html">Career</a></li>
+				<!-- <li><a href="#">Blog</a></li> -->
+				<li><a href="contact.html">Contact Us</a></li>
+				<li> <img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </li>
+			</ul>
+		 </div><!-- /.navbar-collapse -->
+	   </div>
+	</nav>
+	<!-- //header -->
+	<!-- shortcodes-section -->
+		<section class="typography">
+		<div class="container soci_container">
+			<div class="soci soci_facilities">
+				<ul>
+					<li><a href="https://www.facebook.com/mjm.hospital.31" target="_blank" class="fb"><i class="fa fa-facebook fa-fw"></i></a></li>
+					<li><a href="https://twitter.com/HospitalMjm" target="_blank" class="twit"><i class="fa fa-twitter fa-fw"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank" class="link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+					<li><a href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank" class="insta"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    
+				</ul>
+				
+			</div>
+
+		</div>
+			<div class="inner-banner demo-2 text-center">
+				<header class="logo">
+					<h1><a class="cd-logo link link--takiri" href="index.html">MJM Hospital<span>Care With Concern</span></a></h1>
+				</header>
+				<div id="breadcrumb_wrapper">
+					<div class="container">		
+						<h2>Career</h2>
+						<!-- <h6>add a short description here</h6> -->
+					</div>
+				</div>
+			</div>
+		<!-- shortcodes-section -->
+		<!-- social slider start here -->
+              	<div class="socialsss">
+          <ul>
+              <li><a href="#" data-toggle="modal" data-target="#applyModal_1">Make an Appointment<i class="fa fa-calendar fa-fw"></i></a></li>
+              <li><a href="#">Find a Doctor <i class="fa fa-stethoscope fa-fw"></i></a></li>
+              <li><a href="#">Ask a Doctor <i class="fa fa-user-md fa-fw"></i></a></li>
+              <li><a href="#">Request a Free Quoate <i class="fa fa-rupee fa-fw"></i></a></li>
+              <!-- <li><a href="http://behance.net/gianm">OPD Schedule <i class="fas fa-clock fa-fw"></i></a></li> -->
+          </ul>
+      </div>
+		<!-- social section end here -->
+		     <section>
+        <div id="service_1" class="service_details_page">
+            <div class="container">         
+                
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="row service_details_wrap">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <!-- <div class="service_img_box">
+                                    <img src="img/service.jpg" alt="our services image" class="img-responsive" />
+                                </div>  -->                               
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="service_info_wrap">
+                                    <p>MJM hospital would like to recruit the best talents for all departments, because hospitals aim is to provide best services for patients. We invite highly qualified, dedicated, competent professional to join with us and be a leader in healthcare community. We are committed to provide continuous professional growth and resources needed to uphold their dedication to excellence.</p>
+                                    
+                                </div>
+                            </div>                 
+    
+    
+                          </div><!-- container -->
+                            
+                        </div>
+                    </div>
+                    
+                 </div>   
+                  
+                
+            </div>
+      
+<div class="container">
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="panel-title expand">
+           <div class="right-arrow pull-right">+</div>
+          <a href="#">Walk-in for Staff Nurses B.Sc/GNM</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 0 - 5 yrs </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 20</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p>SALARY WILL BE NOT A CONSTRAINT for the Right Candidate</p>
+                                        <ul>
+                                            <li>Responsible for complete bedside nursing care of their assigned patients.</li>
+                                            <li>Carry out procedures of admission, transfer and discharge.</li>
+                                            <li>Makes beds of serious patients and helps or guides staffs under her to make beds, by supplying linen</li>
+                                            <li>Maintains personal hygiene and comfort of the patient</li>
+                                            <li>Attends to the nutritional needs of the patient and feeds the helpless patients</li>
+                                            <li>Maintains clean and safe environment for the patient</li>
+                                            <li>Implements and maintains ward policies and routines.</li>
+                                            <li>Co-ordinates patient care with other team members.</li>
+                                            <li>Take round with the doctors when called to list new orders and see that they are carried out.</li>
+                                            <li>Performs various technical tasks related to nursing care.
+                                            	<div class="service_featuress">
+                                        		   <ul>
+                                            	   <li>Administration of medication, i.e. tablets, injections. Infusions and transfusion on prescription, or according to standing instructions.</li>  
+                                            	   <li>Assisting doctors in various medical and surgical diagnostic procedures by preparing patients.</li>
+                                            	   <li>Collecting and sending of specimens for laboratory diagnostic procedures</li>
+                                            	   <li>Oversee & monitor recording of vital signs, i.e. temperature, pulse, respiration and blood pressure.</li>
+                                            	   <li>Performing gastric lavage, administering enema and/or suppository etc.</li> 
+                                            	   <li>Prepares patients for operations and see that the patient is sent to operation theatre with all necessary papers and medications.</li>
+                                            	   <li>Takes care of eyes, ears, back, bowel, bladder, perineum and breast etc. </li>                                  
+                                            	   <li>Observes all patients conditions and take suitable action accordingly and / or the doctor</li>
+                                            	   <li>Give expert bedside nursing care to all patients</li>
+                                        		   </ul>
+                                    			</div>
+                                            </li>
+                                            <li>. Attends last offices in case of a patient dying during shifts and arrange to preserve dead body in mortuary, or hand over the body with respect to concerned family members, relatives/ authorities. </li>
+                                            <li>Help the ward in charge to carry out her/his work or act as ward in charge during his/ her absence.</li>
+                                            <li>Maintains general cleanliness of the ward and the sanitary annexure</li>
+                                            <li>Supervises the duties of supportive staffs and guides them and reports accordingly</li>
+                                            <li>Writes the diet register and supervises the distribution of diet report if any, necessary</li>
+                                            <li>Maintains scheduled poisonous drug registers</li>
+                                            <li>Supervises nursing care and other tasks carried out by the students</li>
+                                            <li>Maintains duty room trays, sterilize instruments and see that procedural trays are in readiness</li>
+                                            <li>Take over from duty nurse of the previous, new and serious patients, instruments, supplies, drugs etc. and handover the same accordingly</li>
+                                            <li>Maintains all records pertaining to ward/unit
+                                                 <div class="service_featuress">
+                                        		   <ul>
+                                            	   <li>Maintains case papers, investigation reports etc.</li>
+                                            	   <li>Maintains vital signs charts, intake-output charts and other special charts if necessary.</li>
+                                            	   <li>Takes special care of medico legal case papers and records.</li>
+                                            	   <li>Writes day and night orders and maintains ward statistics.</li>
+                                            	   <li>Enters all chargeable procedures, references etc. in patients file.</li>
+                                            	   <li>Checks files for every entry.</li>
+                                            	   <li>Enters charges of every single procedure in the patients file.</li>
+                                            	   <li>Stores original reports of all company or insurance patients</li>
+                                        		   </ul>
+                                    			</div>
+                                            </li>
+                                            <li>Any other duties assigned by the nursing HOD from time to time.</li>
+                                        </ul>
+            </div>
+            <p>Salary:  As per company’s policy</p>
+            <p>Industry:  Medical / Healthcare / Hospitals </p>
+            <p>Functional Area:  Medical , Healthcare , R&D , Pharmaceuticals , Biotechnology </p>
+            <p>Role Category: Medical Professional</p>
+            <p>Role: Nurse</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+        </div>
+      </div>
+  </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Biomedical Engineer</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 2 - 3 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 1</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p> Required biomedical engineer, Hospital experience will be an added advantage. Shift duty will be part of job; Local candidates will be given preference </p>                                        
+            </div>
+            <p>Salary:  As per company’s policy</p>
+            <p>Industry:  Medical / Healthcare / Hospitals </p>
+            <p>Functional Area:  Medical , Healthcare , R&D , Pharmaceuticals , Biotechnology </p>
+            <p>Role Category: Medical Professional</p>
+            <p>Role: Paramedic</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b> biomedical engineer biomedical equipments hospital engineer annual maintenance Repairing </p>
+            <p>Education :-<br> UG:  B.Tech/B.E. - Biomedical<br> PG: Post Graduation Not Required<br>Doctorate: Doctorate Not Required</p>
+        </div>
+    </div>
+</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Medical Officer, Resident Medical Officer</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 1 - 6 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 3</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p>Timely inform Consultants about admissions, discharges, patients' investigations, medical complaints etc. Accompanying the Consultants in their rounds and taking note of the treatment plan. Taking daily medical rounds independently. Etc. </p>                                        
+            </div>
+            <p>Salary:  INR 1,75,000 - 2,50,000 P.A. </p>
+            <p>Industry:  Medical / Healthcare / Hospitals </p>
+            <p>Functional Area: Other</p>
+           <!--  <p>Role Category: Medical Professional</p> -->
+            <p>Role: Other</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <!-- <p><b>KeySkill :-</b> biomedical engineer biomedical equipments hospital engineer annual maintenance Repairing </p>
+            <p>Education :-<br> UG:  B.Tech/B.E. - Biomedical<br> PG: Post Graduation Not Required<br>Doctorate: Doctorate Not Required</p> -->
+        </div>
+    </div>
+   </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">HR Executive</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 1 - 4 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 1</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p> Required biomedical engineer, Hospital experience will be an added advantage. Shift duty will be part of job; Local candidates will be given preference </p>  
+                                        <ul>
+                                        	<li>Handling recruitment process- searching relevant candidates, screening, scheduling interviews</li>
+                                        	<li>Induction and On-boarding</li>
+                                        	<li>Maintaining attendance and leave records</li>
+                                        	<li>Maintain HR records</li>
+                                            <li>Salary processing</li>
+                                        	<li>Joining/exit formalities</li>
+                                        	<li>Working under guidance of HR manager for smooth functioning of HR department</li>
+                                        	<li>Oversee daily operations of the HR department.</li>
+                                        </ul>                                      
+            </div>
+            <p>Salary: INR 1,50,000 - 3,00,000 P.A. </p>
+            <p>Industry:  Pharma / Biotech / Clinical Research </p>
+            <p>Functional Area: HR , Recruitment , Administration , IR </p>
+            <p>Role Category:HR/ Recruitment / IR</p>
+            <p>Role:HR Executive</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b> HR Executive recruitment executive  hr recruiter  hr generalist  </p>
+            <p>Education :-<br> UG: Any Graduate - Any Specialization<br> PG: Post Graduation Not Required</p>
+        </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Pharmacist </a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 0 - 5 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 5</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p>  Pharma , D phama , b pharma , Bsc Msc , B.Tech Are any degree . </p>  
+                                        <ul>
+                                        	<li>Candidate should have knowledge of pharma. Chemical , Food with good knowledge of communication skills</li>
+                                        	<li>Innovate bent of mind</li>
+                                        	<li>Analytical and Problem solving skills</li>
+                                        	<li>fresher and experience</li>
+                                            <!-- <li>Salary processing</li>
+                                        	<li>Joining/exit formalities</li>
+                                        	<li>Working under guidance of HR manager for smooth functioning of HR department</li>
+                                        	<li>Oversee daily operations of the HR department.</li> -->
+                                        </ul>                                      
+            </div>
+            <p>Salary: INR 1,00,000 - 6,00,000 P.A. </p>
+            <p>Industry:  Pharma / Biotech / Clinical Research </p>
+            <p>Functional Area: Medical , Healthcare , R&D , Pharmaceuticals , Biotechnology  </p>
+            <p>Role Category: R&D</p>
+            <p>Role:Pharmacist/Chemist/Bio Chemist</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b> Problem Solving & Communication Skills.  </p>
+            <p>Education :-<br> Pharma , D phama , b pharma , Bsc Msc , B.Tech Are any degree </p>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">NABH Consultant </a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 4 - 9 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 2</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p>  Healthcare Professionals interested in making a career in quality, working with our Client Hospitals in South India in improving quality and going for Accreditations like the NABH, JCI & NABL. Need to handle multiple hospitals.  </p>  
+                                       <!--  <ul>
+                                        	<li>Candidate should have knowledge of pharma. Chemical , Food with good knowledge of communication skills</li>
+                                        	<li>Innovate bent of mind</li>
+                                        	<li>Analytical and Problem solving skills</li>
+                                        	<li>fresher and experience</li>
+                                           
+                                        </ul>   -->                                    
+            </div>
+            <p>Salary: INR 3,00,000 - 5,00,000 P.A. </p>
+            <p>Industry: Medical / Healthcare / Hospitals  </p>
+            <p>Functional Area: Medical , Healthcare , R&D , Pharmaceuticals , Biotechnology </p>
+            <p>Role Category: : Medical Professional</p>
+            <p>Role:Administration Services/Medical Facilities</p>
+            <p>Employment Type:  Permanent Job, Full Time  </p>
+            <p><b>KeySkill :-</b> NABH Hospital Quality Quality Consultant hospital quality assurance hospital quality manager JCI NABL quality control.<br>
+                             <b>Desired Candidate Profile</b><br>
+                              Smart with good communication skills in English and one local South Indian language. Good grasp of hospital operations, preferably with exposure to quality systems like the NABH, NABH-Entry Level, NABL, JCI. Keen to travel, handle multiple hospitals   </p>
+            <p>Education :-<br>UG: Any Graduate - Any Specialization<br>PG: MBA/PGDM - Any Specialization, Other Management<br>Doctorate: Doctorate Not Required</p>
+        </div>
+    </div>
+  </div>
+
+
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Front Office Executive / Front Desk Executive / Receptionist</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 1 - 3 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 3</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p> Looking for female candidates.</p>  
+                                        <ul>
+                                        	<li>Promptly, accurately, professionally and courteously receives and assesses all the incoming telephone calls /inquiries and re-directs the said call or message to its appropriate beneficiary.</li>
+                                        	<li>Responsible for the entire courier and its associated services including but not limited to passing the courier bills for payment and maintaining continuous database for the same</li>
+                                        	<li>Maintains requisite supplies of medicines and other items of the first aid box. (This is basically maintained by the facilities management or otherwise known as administration. </li>
+                                        	<li>Time keeping & attendance muster update of employee.</li>
+                                            <li>Guest Management & Hospitality as per the guest priority (Greet and welcome)</li>
+                                        	<li>Stock Management & its operation related to Stationary, Pantry, housekeeping.</li>
+                                        	<li>Distribution of stationary to the staff as when require</li>
+                                        	<li>Ensures that the reception area is kept neat, clean and noiseless. The daily newspaper and periodicals are all properly placed and the sofa covers are clean and wrinkle free.</li>
+                                        	<li>Accountable for appointments and scheduling them properly on the days and times as directed. Also to book appropriate meeting rooms in advance to avoid last minute inconvenience. (Only applicable of room bookings)</li>
+                                        	<li>To assist the HR department in verifying the attendance and leave records of the employees. (If the HR insists this needs to be helped by the front office. Otherwise this may not be required to be done by the reception.)</li>
+                                        	<li>Keeps the immediate supervisor well-informed of all the reportable activities and problems which are identified/potential problems; and also to recommends corrective actions at regular intervals</li>
+                                        	<li>To arrange for food and beverages for the senior management guests & dignitaries, on case to case basis, after seeking the appropriate approval.</li>
+                                        	<li>Responsible for booking of banquet, lunch & dinner table at restaurants or hotels as requested by the clients or dignitaries. (Only if request is given, otherwise done by the respective departments)</li>
+                                        	<li>Maintains confidentiality at all time of the organization fiscal and personnel related information.</li>
+                                        	<li>Performs routine office tasks as necessary for the presentation of a professional office.</li>
+                                        	<li>Managing housekeeping jobs in the reception area and its associate meeting / sick rooms.</li>
+                                        	<li>To keep an eye on all outsiders who comes into and goes out of the office and also to manage the reception area along with its associate meeting / sick rooms.</li>
+                                        	<li>To ensure that all the books, periodicals and registers as kept in the reception area are all well maintained and properly covered with brown paper.</li>
+                                        	<li>To always maintain office decorum and a high degree of quality communication between the various parties concerned</li>
+                                        	<li>Daily reporting to reporting manager in a proper manner. (preferably on mail).</li>
+
+                                        </ul>                                      
+            </div>
+            <p>Salary:As per company’s policy </p>
+            <p>Industry: IT-Software / Software Services </p>
+            <p>Functional Area:Executive Assistant , Front Office , Data Entry </p>
+            <p>Role Category:Other</p>
+            <p>Role:Receptionist</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b> Reception Front Office Front Desk Administration Office Assistance Travel Desk Ticket Booking Board Meeting Inventory Management appointments attending quests or clients attending calls and messages replying to emails  </p>
+            <p>Education :-<br> UG: Any Graduate - Any Specialization</p>
+        </div>
+    </div>
+  </div>
+
+   <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse8" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Billing Officer / Executive</a>
+        </h4>
+      </div>
+      <div id="collapse8" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 5 - 9 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 3</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p> To ensure that bills are generated as per SOP. To ensure that outstanding follow-up is done regularly and any discrepancies in outstanding amounts, as described in policy, are immediately reported to the Billing Manager.</p>  
+                                        <ul>
+                                        	<li>To ensure accurate billing as per the policies of the hospital. To ensure accurate credit billing as per the approved MOUs. </li>
+                                        	<li>To give estimates to the patient for Planned and Unplanned Cases. To track all offshoots in estimates and report to the Billing Manager.</li>
+                                        	<li>Giving OT clearance for Surgeries to be performed one day prior to the CCO. </li>
+                                        	<li>Rounds in the Night - Checking the files with reports for the patients and ensuring that all entries are been done.</li>
+                                            <li>Ensure that all the entries are made in the billing and the rates are according to the ACI rates manual. </li>
+                                        	<li>Check list for Discharges and Check List for Night rounds to be done. </li>
+                                        	<li>Handling the queries of the relatives. If not available to solve the same informing to Billing in charge/Manager to solve the same. </li>
+                                        	<li>To assist the reporting head in different activities, as and when directed from time to time.</li>
+                                        	
+                                        </ul>                                      
+            </div>
+            <p>Salary:As per company’s policy </p>
+            <p>Industry: Medical / Healthcare / Hospitals </p>
+            <p>Functional Area:ITES , BPO , KPO , LPO , Customer Service , Operations </p>
+            <p>Role Category:Voice</p>
+            <p>Role:Associate/Senior Associate -(Nontechnical)</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b>billing executive billing officer medical billing officer <br><b>Desired Candidate Profile</b><br>Candidates from Hospital background will be preferred. </p>
+            <p>Education :-<br> UG: Any Graduate - Any Specialization<br>PG :Post Graduation Not Required<br>Doctorate: Doctorate Not Required.</p>
+        </div>
+    </div>
+  </div>
+
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Marketing Executive/BDE</a>
+        </h4>
+      </div>
+      <div id="collapse9" class="panel-collapse collapse">
+        <div class="panel-body">
+        	<p>Experience :- 1 - 6 yrs  </p>
+        	<p>Location :- Pune</p>
+        	<p>Openings :- 1</p>
+        	<div class="service_features">
+                                        <h4>Job Description</h4>
+                                        <p> Candidate Should Have Minimum 1 to 5 Year of Experience in Marketing /hospital Marketing.</p>  
+                                        <ul>
+                                        	<li>we are looking for a competent Corporate Business Development Executives to undertake a variety of marketing and business development tasks in order to help guarantee the hospitals revenues. You will handle the processing of business development.</li>
+                                        	<li>To develop & establish Corporate business vertical. To visit nearby MIDC and companies for business development and tie up with companies.</li>
+                                        	<li>Responsible for monthly, quarterly and yearly revenue targets subdivided into health checks, business, and OP & IP business.
+To organize and conduct events at companies such as health check campus, campus talks etc. </li>
+                                        	<li>Referred Business Development/Doctors Relationship </li>
+                                            <li>Management Executive:- to visit nearby (100Km radius) hospitals and consultants/Nursing home owners to get referrals for our hospital.</li>
+                                        	<li>Responsible for targets (Revenue)</li>
+                                        	<li>Event Management.</li>
+                                        	<li>To organize in house and outdoor events to increase the footfall of hospital.</li>
+                                        	<li>Responsible for overall footfall generated via events.</li>
+                                        	
+                                        </ul>                                      
+            </div>
+            <p>Salary:As per company’s policy </p>
+            <p>Industry: Medical / Healthcare / Hospitals </p>
+            <p>Functional Area:Marketing , Advertising , MR , PR , Media Planning  </p>
+            <p>Role Category:Marketing</p>
+            <p>Role:Corporate Communication Executive</p>
+            <p>Employment Type:  Permanent Job, Full Time </p>
+            <p><b>KeySkill :-</b> Corporate Business Development Hospital Marketing Bde Events Relationship Management Event Management</p>
+            <p>Education :- PG: MBA/PGDM - Advertising/Mass Communication, Marketing.</p>
+        </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+  <div class="container career_x">
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Please Send Updated Resume To Following Mail Id :- <a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a></p>
+					</div>
+				</div>
+			</div>
+        </section>
+		<!-- //shortcodes-section -->
+		<!-- book an appointment -->
+		<div class="appointment">
+			<div class="container">
+				<div class="col-md-9 appointment-left">
+					<h3>REQUEST APPOINTMENT BOOKING</h3>
+				</div>
+				<div class="col-md-3 appointment-right">
+					<a href="#" class="btn btn-default btn-default_2 pull-left" data-toggle="modal" data-target="#applyModal_1">Request For Appointment</a>
+					<div class="modal fade" id="applyModal_1" tabindex="-1" role="dialog" aria-labelledby="applyModalLabel" aria-hidden="true">
+				  	<div class="modal-dialog dialog_3">
+				    	<div class="modal-content">
+					      	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
+			                         <h3>Make An appointment Now</h3>
+									 
+			                        </div></h4>
+					      	</div>
+							<div class="modal-body">
+								<form name="row" method="post" class="register" action="contacts.php">
+                                    <input type="text" name="name" id="name" placeholder="Name" required="">
+                                    <input type="text" name="email" id="Email id" placeholder="Email id" required="">
+                                    <input type="text" name="mobile" id="Mobile Number" placeholder="Mobile Number" required="">
+
+									<input class="date" name="day" id="datepicker" type="text" value="Appointment date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Appointment date';}" required=>
+									<select  id="sel1" name="spell">
+        									<option>Select Speciality</option>
+        									<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+        									<option>BREAST SURGERY</option>
+        									<option>CARDIOLOGY</option>
+        									<option>CANCER SURGERY</option>
+        									<option>COSMETIC AND PLASTIC SURGERY</option>
+        									<option>CRITICAL CARE MEDICINE</option>
+        									<option>ENT</option>
+        									<option>GENERAL MEDICINE</option>
+        									<option>GENERAL & GI SURGERY</option>
+        									<option>GYNECOLOGY & OBSTETRICS</option>
+        									<option>HAND SURGERY</option>
+        									<option>INTENSIVE CARE MEDICINE</option>
+        									<option>JOINT REPLACEMENT SURGERY</option>
+        									<option>LIVER SURGERY</option>
+        									<option>NEPHROLOGY</option>
+        									<option>NEUROLOGY</option>
+        									<option>NEURO SURGERY</option>
+        									<option>OBESITY SURGERY</option>
+        									<option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+        									<option>PAIN MANAGEMENT</option>
+        									<option>PAEDIATRICS</option>
+        									<option>PAEDIATRICS GASTROENTEROLOGY</option>
+        									<option>PAEDIATRICS NEONATOLOGY</option>
+        									<option>PAEDIATRIC SURGERY</option>
+        									<option>PSYCHIATRY</option>
+        									<option>PHYSIOTHERAPY</option>
+        									<option>RADIOLOGY</option>
+        									<option>SPINE SURGERY</option>
+        									<option>UROLOGY</option>
+        									<option>VASCULAR SURGERY</option>
+
+      									</select>
+									<textarea type="text" name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Message...';}" required="">Enter Message...</textarea>
+									<input type="submit" onclick="myFunction()" value="Submit Now">
+								</form>
+							</div>
+							<!---start-date-piker---->
+								<link rel="stylesheet" href="css/jquery-ui.css" />
+								<script src="js/jquery-ui.js"></script>
+									<script>
+										$(function() {
+										$( "#datepicker" ).datepicker();
+										});
+									</script>
+							<!---/End-date-piker---->
+                     </div>
+		         </div>
+		     </div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- //book an appointment -->
+		
+		<!-- footer -->
+		<footer>
+			<div class="footer-grids">
+				<div class="container">
+					<!-- <div class="col-md-3 footer one">
+						<h3>About Company</h3>
+						<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of Latin at Hampden-Sydney College in Virginia from a Lorem Ipsum passage, undoubtable source.</p>
+						<p class="adam">- Patrick Victoria, CEO</p>
+						<div class="clear"></div>
+					</div> -->
+					<div class="col-md-4 footer one tweet">
+						<h3>Tweets</h3>
+						<ul>
+							<li>
+								<a href="https://twitter.com/HospitalMjm/status/945911073323937793" target="_blank">MJM wins accolades for partnering with Sakal as HEALTH PARTNER for schoolympics. Director Dr. Mukund Joshi and CEO Mr. Mohan Nair receiving trophy from Sakal Management for supporting the social cause.
+								<i>https://twitter.com/HospitalMjm</i></a>
+								<span>27 December 2017<span>
+							</span></span></li>
+							<!-- <li>
+								<a href="#"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit. 
+								<i>http//example.com</i></a>
+								<span>About a day ago<span>
+							</span></span></li> -->
+						</ul>
+					</div>
+					<div class="col-md-4 footer two">
+						<h3>Keep Connected</h3>
+						<ul>
+							<li><a class="fb" href="https://www.facebook.com/mjm.hospital.31" target="_blank"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+							<li><a class="fb1" href="https://twitter.com/HospitalMjm" target="_blank"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+							<li><a class="fb3" href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank"><i class="fa fa-instagram" ></i>Follow us on Instagram</a></li>
+							<li><a class="fb4" href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank"><i class="fa fa-linkedin" ></i>Add us on Linkedin</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 footer three">
+						<h3>Contact Information</h3>
+						<ul>
+							<li><i class="fa fa-map-marker"></i><p>MJM HOSPITAL<span>1194/23 Janardhan Sadan, </span> Ghole Road, Pune - 411005. </p><div class="clearfix"></div> </li>
+							<li><i class="fa fa-phone"></i><p>+(91)-20-41499999</p> <div class="clearfix"></div> </li>
+							<li><i class="fa fa-envelope-o"></i><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a> / <a href="mailto:customercare@mjmhospital.com">customercare@mjmhospital.com</a><div class="clearfix"></div></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			
+			<!-- maps -->
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.099669705015!2d73.8416031147445!3d18.52439757389223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f3df7fc09%3A0x56439c1a74f36652!2sMJM+HOSPITAL!5e0!3m2!1sen!2sin!4v1509782137465" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="copy-right-grids">
+				<div class="container">
+					<div class="copy-left">
+							<p class="footer-gd">&copy; <script type="text/javascript">  document.write(new Date().getFullYear()); </script> MJM HOSPITAL. All Rights Reserved </p>
+					</div>
+					<div class="footer-links">
+						<!-- <ul>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a href="privacy_policy.html">Privacy Policy</a></li>
+							<li><a href="terms.html">Terms of Use</a></li>
+						</ul> -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</footer>
+		<!-- //footer -->
+		  <link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+		<script type="text/javascript" src="js/wickedpicker.js"></script>
+		
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+		<!-- Calendar -->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+		<script type="text/javascript">
+$(function() {
+  $(".expand").on( "click", function() {
+    // $(this).next().slideToggle(200);
+    $expand = $(this).find(">:first-child");
+    
+    if($expand.text() == "+") {
+      $expand.text("-");
+    } else {
+      $expand.text("+");
+    }
+  });
+});
+		</script>
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>

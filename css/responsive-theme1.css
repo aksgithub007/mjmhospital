@@ -1,0 +1,246 @@
+
+@media screen and (max-width: 1199px)
+{	
+	/**** 24-nov-17 ******/
+
+	.dropdown-menu.columns-3 {
+	    min-height: 0px;
+	    height: auto;
+	}
+	.columns-3 h4 { font-size: 14px; }
+	.nav > li.dropdown.multinav.open .dropdown-menu { padding: 25px; }
+
+	/***************/
+	
+	.menu .navbar-nav > li > a{
+		font-size: 13px;
+		padding: 12px 12px;
+	}
+
+	.menu .dropdown-menu li a {
+		font-size: 13px;
+	}
+
+	.menu .nav > li.diff_nav .open_nav .dropdown-header {
+	    font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 991px)
+{	
+
+	/***** 24-nov-17 *******/
+
+	.nav > li.dropdown.multinav.open .dropdown-menu {
+    	padding: 20px 15px;
+	}
+	.columns-3 h4 {
+	    font-size: 12px;
+	    padding: 8px 5px;
+	}
+
+	.menu .navbar-nav > li > a {
+	    font-size: 11px;
+	    padding: 12px 6px;
+	}
+
+	.menu .container {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+
+	.menu .dropdown-menu {
+	    min-width: 185px;
+	}
+
+	.menu .dropdown-menu li a {
+	    padding: 10px 10px 10px 10px;
+	    font-size: 11px;
+	}
+
+	.menu .nav > li.diff_nav .open_nav .dropdown-header {
+	    font-size: 11px;
+	    padding-left: 10px;
+	}
+
+	.menu .nav > li.diff_nav .open_nav li a {
+	    padding-left: 22px !important;
+	}
+
+	.menu .nav > li.diff_nav .open_nav li a:hover,
+	.menu .nav > li.diff_nav .open_nav li a:focus{
+		padding-left: 30px !important;
+	}
+
+	.menu .dropdown-menu li a:hover{
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 767px)
+{	
+	.logo img{ width: 220px; }
+	
+	/*** Main Navigation ******/
+
+	.menu .navbar {
+	    min-height: 44px;
+	}
+
+	.menu .container{
+		padding-left:0;
+		padding-right: 0;
+	}
+
+	.menu .navbar-toggle{
+		border-radius: 0;
+		padding: 8px 9px;
+		margin-top: 6px;
+		margin-bottom:6px; 
+		
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	.menu .navbar-toggle .icon-bar {
+	    background-color: #fff;
+	}
+	.menu .navbar-toggle:hover,
+	.menu .navbar-toggle:focus{
+		border-color: #00aced;
+		background-color: #00aced;
+	}
+
+	.menu .navbar-collapse{
+		border-top: 1px solid #3e7fac;
+	}
+
+	.menu .navbar-nav > li{
+		border-bottom: 1px solid #3e7fac;
+	}
+	.menu .navbar-nav > li:last-child{
+		border-bottom: none;	
+	}
+
+	.menu .navbar-nav > li > a {
+	    font-size: 13px;
+	    padding: 11px 9px 11px 20px;
+	    display: block;
+	}
+	.menu .dropdown-menu li a {
+		font-size: 12px;
+		/*padding: 8px 10px 8px 30px;*/
+	}
+
+	.nav > li.dropdown.open .dropdown-menu {
+		min-width: 100% !important;
+		display: block;
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.menu .open .dropdown-menu > li > a {
+	    padding: 8px 10px 8px 35px;
+	    background-color: #07395f;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	    color: #fff;
+	    background-color: #012340;
+	}
+
+	.menu .open .dropdown-menu li a:hover{
+		padding-left: 35px;
+	}
+
+	.menu .nav > li.diff_nav .open_nav .dropdown-header {
+	    font-size: 13px;
+	    padding: 8px 35px;
+	    background-color: #07395f;
+	}
+
+	.menu .nav > li.diff_nav .open_nav li a {
+	    padding-left: 55px !important;
+	    padding-top: 7px;
+    	padding-bottom: 7px;
+	    background-color: #134c71;
+	}
+
+	.menu .nav > li.diff_nav .open_nav li a:hover,
+	.menu .nav > li.diff_nav .open_nav li a:focus{
+		background-color: #134c71;
+		color: #00aced !important;
+		padding-left: 55px !important;
+		
+	}
+
+	.nav > li.dropdown.multinav.open .dropdown-menu {
+		/*padding: 10px 25px 10px;*/
+		padding: 20px 25px 0px;
+	}
+
+	.columns-3 .inner_menu_box{ padding-bottom: 15px;}
+
+}
+
+@media screen and (max-width: 640px)
+{	
+
+	.logonav .col-xs-12 {
+	    width: 100%;
+	}
+	.logo_box{ text-align: center; }
+
+	.logo img {
+	    width: 200px;
+    	margin-top: 4px;
+	}
+
+}
+
+@media screen and (max-width: 480px)
+{	
+
+	.menu .navbar-nav > li > a {
+	    font-size: 12px;
+	    line-height: 17px;
+	    padding: 9px 9px 9px 20px;
+	}
+
+	.menu .dropdown-menu li a {
+	    font-size: 12px;
+	}
+
+	.menu .navbar-nav .open .dropdown-menu > li > a {
+	    line-height: 15px;
+	}
+
+}
+
+@media screen and (max-width: 420px)
+{	
+	.columns-3 h4 { font-size: 14px; padding-left: 6px; }
+}
+
+@media screen and (max-width: 380px)
+{	
+	.logo img {
+	    width: 210px;
+	}
+
+	.menu .navbar {
+	    min-height: 40px;
+	}
+
+	.menu .navbar-toggle {
+	    padding: 6px 6px;
+	}
+
+	.menu .navbar-toggle .icon-bar {
+	    width: 20px;
+	}
+
+}

@@ -1,0 +1,846 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MJM Hospital || Articles</title>
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--//fonts-->	
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme1.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive-theme1.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>		
+		<!-- js for news -->
+		<script src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/pignose.layerslider.js"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+				$(window).load(function() {
+					$('#visual').pignoseLayerSlider({
+						play    : '.btn-play',
+						pause   : '.btn-pause',
+						next    : '.btn-next',
+						prev    : '.btn-prev'
+					});
+				});
+			//]]>
+			</script>
+		<!-- /js for news -->
+		
+		<!-- for smooth scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+		</script>
+		<!-- //for smooth scrolling -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="top-strip">
+		<div class="container-fluid">
+		<div class="contact_top">
+				<a href="#" data-toggle="modal" data-target="#applyModal_111" class="btn btn-primary">Request an Appointment</a>
+				<a href="article.html" class="btn btn-primary">Articles</a>
+				<a href="services.html" class="btn btn-primary">Specialities</a>
+				<a href="contact.html" class="btn btn-primary">Contact Us</a>
+				<a href="#"><img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </a>
+
+			</div>
+
+			
+			<!-- Modal -->
+  										<div class="modal fade upper_appointment" id="applyModal_111" role="dialog">
+  										  <div class="modal-dialog modal-lg">
+    										  <div class="modal-content">
+     										   	  <div class="modal-header">
+       										      	<button type="button" class="close" data-dismiss="modal">&times;</button>
+       										      	<div class="modal_top">
+       										      		<div class="logo_m">
+       										      		<img src="img/mjm_logo11.png" alt="logo" title="logo">
+       										      	</div>
+       										      	<div class="text_m">
+       										      		<h2>MJM HOSPITAL PUNE</h2>
+       										      		<!-- <p>Care With Concern</p> -->
+       										      	</div>
+       										      	<div class="clearfix"></div>
+       										      	</div>
+       										      	
+      										   	  </div>
+      										    	<div class="modal-body">
+        										  	    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>Make an appointment</h2>
+			<form action="Appointment111.php" method="post">
+			<div class="left-agileits-w3layouts same">
+			<div class="gaps">
+				<p>First Name</p>
+					<input type="text" name="f_name" placeholder="" required=""/>
+			</div>	
+				<div class="gaps">	
+				<p>Last Name</p>
+					<input type="text" name="l_name" placeholder="" required=""/>
+				</div>
+				<div class="gaps">
+				<p>Email</p>
+						<input type="email" name="email" placeholder="" required="" />
+				</div>	
+				<div class="gaps">	
+				<p>Phone Number</p>
+					<input type="text" name="Number" placeholder="" required=""/>
+				</div>
+				
+			</div>
+			<div class="right-agileinfo same">
+			<div class="gaps">
+				<p>Select Date</p>		
+						<input  id="datepicker1" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+			</div>
+			<div class="gaps">
+				<p>Department</p>	
+					<select class="form-control" name="Department">
+						<option></option>
+						<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+						<option>BREAST SURGERY</option>
+						<option>CARDIOLOGY</option>
+						<option>CANCER SURGERY</option>
+						<option>COSMETIC AND PLASTIC SURGERY</option>
+						<option>CRITICAL CARE MEDICINE</option>
+						<option>ENT</option>
+						<option>GENERAL MEDICINE</option>
+						<option>GENERAL & GI SURGERY</option>
+						<option>GYNECOLOGY & OBSTETRICS</option>
+						<option>HAND SURGERY</option>
+                        <option>INTENSIVE CARE MEDICINE</option>
+						<option>JOINT REPLACEMENT SURGERY</option>
+						<option>LIVER SURGERY</option>
+						<option>NEPHROLOGY</option>
+						<option>NEUROLOGY</option>
+						<option>NEURO SURGERY</option>
+                        <option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+						<option>PAIN MANAGEMENT</option>
+						<option>PAEDIATRICS</option>
+						<option>PAEDIATRICS GASTROENTEROLOGY</option>
+						<option>PAEDIATRICS NEONATOLOGY</option>
+						<option>PAEDIATRIC SURGERY</option>
+						<option>PSYCHIATRY</option>
+						<option>RADIOLOGY</option>
+                        <option>SPINE SURGERY</option>
+						<option>UROLOGY</option> 
+						<option>VASCULAR SURGERY</option>
+
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Gender</p>	
+					<select class="form-control" name="gender">
+						<option></option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Time</p>		
+					<input type="text" id="timepicker" name="Time" class="timepicker form-control" value="">	
+			</div>
+			</div>
+			<div class="clear"></div>
+						  <input type="submit" value="Make an appointment">
+			</form>
+		</div>
+   </div>
+       										    	</div>
+       										    	<!-- <div class="modal-footer">
+        										  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       										    	</div> -->
+     										  </div>
+    										</div>
+ 										 </div>
+  <!-- /*Modal End*/ -->
+			<div class="contact-info">
+				<ul>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+(91)-20-41499999</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a></li>
+				</ul>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<nav class="navbar nav_bottom" role="navigation">
+	 <div class="container-fluid">
+	 <!-- Brand and toggle get grouped for better mobile display -->
+	   <div class="navbar-header nav_2">
+		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="index.html"> <img src="img/mjm_logo.png" alt="MJM Hospital" title="MJM Hospital"></a>                   <!-- Logo Put here -->
+	   </div> 
+	   <!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			<ul class="nav navbar-nav nav_1">
+			  <li><a href="index.html">Home</a></li>
+				<!-- <li class=""><a href="#">About Us</a></li> -->
+				<!-- <li><a href="#">Why Us</a></li> -->
+				<li class="dropdown current_page">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="founders_message.html">Founder’s Dream</a></li>
+					<li><a href="director.html">Management Message</a></li>
+					<li><a href="team.html">Our Management Team</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="facilities.html">Our Facilities</a></li>
+					<!-- <li><a href="technologies.html">Technologies</a></li>
+					<li><a href="instruments.html">Instruments</a></li> -->
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialities<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu specials columns-3" role="menu">
+				  	<div class="container">
+				  		<div class="row">
+                         <div class="col-xs-12 col-sm-5 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                              <li><a href="services.html">ARTHOSCOPY & SHOULDER SURGERY</a></li>
+                              <li><a href="breast_surgery.html">BREAST SURGERY</a></li>
+                              <li><a href="cardiology.html">CARDIOLOGY</a></li>
+                              <li><a href="cancer_surgery.html">CANCER SURGERY</a></li>
+                              <li><a href="cosmetic_plastic_surgery.html">COSMETIC AND PLASTIC SURGERY</a></li>
+                              <li><a href="critical_care_medicine.html">CRITICAL CARE MEDICINE</a></li>
+                              <li><a href="ent.html">ENT</a></li>
+                              <li><a href="general_medicine.html">GENERAL MEDICINE</a></li>
+                              <li><a href="general_gi_surgery.html">GENERAL & GI SURGERY</a></li>
+                              <li><a href="gynecology_obstetrics.html">GYNECOLOGY & OBSTETRICS</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="col-xs-12 col-sm-4 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="hand_surgery.html" >HAND SURGERY</a></li>
+                                <li><a href="intensive_care.html" >INTENSIVE CARE MEDICINE</a></li>
+                                <li><a href="joint_replacement_surgery.html">JOINT REPLACEMENT SURGERY</a></li>
+                                <li><a href="liver_surgery.html">LIVER SURGERY</a></li>
+                                <li><a href="nephrology.html">NEPHROLOGY</a></li>
+                                <li><a href="neurology.html">NEUROLOGY</a></li>
+                                <li><a href="neuro_surgery.html">NEURO SURGERY</a></li>
+                                <li><a href="obesity_surgery.html">OBESITY SURGERY</a></li>
+                                <li><a href="orthopedic_joint_replacement.html">ORTHOPEDIC AND JOINT REPLACEMENT</a></li>
+                                <li><a href="pain_management.html">PAIN MANAGEMENT</a></li>
+                            </ul>
+                          </div>  
+                      </div>
+                      <div class="col-xs-12 col-sm-3 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="paediatrics.html" >PAEDIATRICS</a></li>
+                                <li><a href="paediatrics_gastroenterology.html">PAEDIATRICS GASTROENTEROLOGY</a></li>
+                                <li><a href="paediatrics_neonatology.html">PAEDIATRICS NEONATOLOGY</a></li>
+                                <li><a href="paediatrics_surgery.html">PAEDIATRIC SURGERY</a></li>
+                                <li><a href="psychiatry.html">PSYCHIATRY</a></li>
+                                <li><a href="physiotherapy.html">PHYSIOTHERAPY</a></li>
+                                <li><a href="radiology.html">RADIOLOGY</a></li>
+                                <li><a href="spine_surgery.html">SPINE SURGERY</a></li>
+                                <li><a href="urology.html">UROLOGY</a></li>
+                                <li><a href="vascular_surgery.html">VASCULAR SURGERY</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="clr_float"></div>
+                    </div></div>
+					
+				  </ul>
+				</li>
+				<!-- <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="#">Our Lab<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="career.html">Careers</a></li>
+					<li><a href="404.html">Franchisee</a></li>
+				  </ul>
+				</li> -->
+				<li class="dropdown">
+				  <a href="#news" class="dropdown-toggle" data-toggle="#">News<!-- <span class="caret"></span> --></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="news.html">News</a></li>
+					<li><a href="faq.html">Faq</a></li>
+					<li><a href="mobile-app.html">App</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="shortcodes.html">Shortcodes</a></li>
+					<li><a href="privacy_policy.html">Privacy Policy</a></li>
+				  </ul>
+				</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				 <li><a href="career.html">Career</a></li>
+				<!-- <li><a href="#">Blog</a></li> -->
+				<li><a href="contact.html">Contact Us</a></li>
+				<li> <img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </li>
+			</ul>
+		 </div><!-- /.navbar-collapse -->
+	   </div>
+	</nav>
+	<!-- //header -->
+	<!-- shortcodes-section -->
+		<section class="typography">
+			<div class="container soci_container">
+			<div class="soci soci_facilities">
+				<ul>
+					<li><a href="https://www.facebook.com/mjm.hospital.31" target="_blank" class="fb"><i class="fa fa-facebook fa-fw"></i></a></li>
+					<li><a href="https://twitter.com/HospitalMjm" target="_blank" class="twit"><i class="fa fa-twitter fa-fw"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank" class="link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+					<li><a href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank" class="insta"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    
+				</ul>
+				
+			</div>
+
+		</div>
+			<div class="inner-banner demo-2 text-center">
+
+				<header class="logo">
+					<h1><a class="cd-logo link link--takiri" href="index.html">MJM Hospital<span>Care With Concern</span></a></h1>
+				</header>
+				<div id="breadcrumb_wrapper">
+					<div class="container">		
+						<h2>Articles</h2>
+						<!-- <h6>add a short description here</h6> -->
+					</div>
+				</div>
+			</div>
+		<!-- shortcodes-section -->
+				<!-- social slider start here -->
+              	<div class="socialsss">
+          <ul>
+              <li><a href="#" data-toggle="modal" data-target="#applyModal_1">Make an Appointment<i class="fa fa-calendar fa-fw"></i></a></li>
+              <li><a href="#">Find a Doctor <i class="fa fa-stethoscope fa-fw"></i></a></li>
+              <li><a href="#">Ask a Doctor <i class="fa fa-user-md fa-fw"></i></a></li>
+              <li><a href="#">Request a Free Quoate <i class="fa fa-rupee fa-fw"></i></a></li>
+              <!-- <li><a href="http://behance.net/gianm">OPD Schedule <i class="fas fa-clock fa-fw"></i></a></li> -->
+          </ul>
+      </div>		<!-- social section end here -->
+
+
+      <section id="articles">
+      	<div class="container">
+      		<div class="row">
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper">
+      				    <div class="article_text">
+      						<h3>5 WAYS TO BETTER SLEEP</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal1" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_1">
+      				    <div class="article_text">
+      						<h3>WORLD HAND HYGIENE DAY</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal2" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_2">
+      				    <div class="article_text">
+      						<h3>OBESITY IS ALSO THE NEW SMOKING</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal3" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_3">
+      				    <div class="article_text">
+      						<h3>LOOK 16 AT 60’s</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal4" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_4">
+      				    <div class="article_text">
+      						<h3>STOP DIABETES</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal5" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_5">
+      				    <div class="article_text">
+      						<h3>WHAT IS HERNIA</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal6" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+      			<div class="col-xs-12 col-sm-6 col-md-4">
+      				<div class="artcle_wrapper art_6">
+      				    <div class="article_text">
+      						<h3>WORLD HYPERTENSION DAY</h3>
+      					</div>
+      					<div class="article_btn">
+      						<a href="#Artmodal7" data-toggle="modal" class="btn btn-primary art_btn">Read More</a>
+      					</div>
+      					
+      				</div>
+      			</div>
+
+
+      		</div><!-- row -->
+      	</div><!-- container -->
+      </section> <!-- articles --> 
+
+<!-- article 1 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>5 WAYS TO BETTER SLEEP</h2>
+			</div>
+			<div class="modal-body">
+				<p>The next time you are having trouble sleeping, try our expert natural tips for getting past your insomnia.</p>
+				<h4>STICK TO A SLEEP SCHEDULE</h4>
+				<p>Set aside no more than eight hour for sleep. The recommendation amount of sleep for a healthy adult is at least 7 hours. Being consistent reinforces your body’s sleep wake cycle.</p>
+				<h4>PAY ATTENTION TO WHAT YOU EAT AND DRINK</h4>
+				<p>Don’t go to bed hungry or stuffed. In particular, avoid heavy and large meals within a couple of hour of bedtime.</p>
+				<h4>MANAGE WORRIES</h4>
+				<p>Try to resolve your worries or concerned before bedtime. Jot down what’s on your mind and then set it aside for tomorrow.</p>
+				<h4>SQUEEZE AND RELAX</h4>
+				<p>Relaxing all your muscles can prepare your body for sleep.</p>
+				<p>“Take a deep, slow breath and lay on your back at the same time squeeze   your toes tightly as if you are trying to curl them under foot, then release the squeeze”.</p>
+				<h4>EMPTY YOUR BLADDER</h4>
+				<p>Avoid drinking fluids 2 hour before bedtime and use the double voiding technique, </p>
+				<p>“This means emptying your bladder twice by urinating a second time 10 to 15 min. after the 1st time”.</p>
+				<p>“LAST BUT NOT THE LEAST”</p>
+				<h4>If you are still having trouble sleeping</h4>
+				<p>Don’t hesitate to speak with your doctor or sleep professional.</p>
+				<h3>“3 MEALS PLUS BEDTIME MAKE 4 SURE BLESSING EACH DAY”</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 1 modal end here -->
+
+
+<!-- article 2 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal2">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>WORLD HAND HYGIENE DAY 5TH MAY 2018</h2>
+			</div>
+			<div class="modal-body">
+				<p>This day is also known as <span>global hand washing day</span>. The day is declared by the <span>World Health Organization (WHO)</span> and attracts patient and their family members to join health workers in their efforts to practice good hand hygiene.</p>
+				<p>The <span>World Health Organization</span> are raising awareness of SEPSIS. SEPSIS arises when an infection alters the body’s normal response causing injury to tissue and organs. </p>
+				<h4>EFFECTS OF SEPSIS EVERY YEAR DUE TO POOR HAND HYGIENE:</h4>
+				<ul>
+					<li>3 Crore People Worldwide.</li>
+					<li>30 Lakhs new Borns.</li>
+					<li>12 Lakhs Children.</li>
+					<li>It Kills upto 60 Lakhs People.</li>
+					<li>It Kills upto 5 Lakhs New Born.</li>
+					<li>It Causes 1 in 10 Maternal Deaths.</li>
+				</ul>
+				<h4>HOW TO REDUCE SEPSIS????</h4>
+				<p>Hand hygiene is especially important in prevention of developing sepsis. As well as removing visible signs of soiling regular hand washing removes invisible germs and bacteria,reducing the risk of cross contamination. Hand sanitizer should be used in medical establishments as an extra  defence against spreading infection.</p>
+                <h4>MJM HOSPITAL observed World Hand Hygiene day on 5th May 2018 with the following action:-</h4>
+				<p>Employees pledge their support by hand hygiene by displayed their colorful palms on board.</p>
+                <p>Seven  Steps of Hand Hygiene test was taken for all the employees.</p>
+                <p>Skit, dance, activities was conducted highlighting the importance of Hand  Hygiene.</p>
+                <p>Several patients, COO, CEO & the Director Mrs. Anagha Joshi participated in the event.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 2 modal end here -->
+
+<!-- article 3 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal3">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>OBESITY IS ALSO THE NEW SMOKING</h2>
+			</div>
+			<div class="modal-body">
+				<p><span>OBESITY</span> is potentially the new <span>SMOKING</span>, if we are not careful, said by Dr. MUKUND JOSHI, gastroenterology surgeon at MJM HOSPITAL, PUNE. Obesity could overtake smoking as the chief avoidable cause of cancer related deaths, the world’s largest independent funder of cancer research.</p>
+				<p>The research published in the British Journal of cancer shows that obesity causes 13 different types of cancer, including bowel, breast, womb and kidney.</p>
+                <p><span>MJM HOSPITAL</span> runs <span>“OBESITY CLINIC”</span> in their hospital at Ghole road, Pune. The hospital is instrumental in reducing obesity problems in hundreds of patients.</p>
+                <h3>For more details contact: 09769337236</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 3 modal end here -->
+
+<!-- article 4 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>LOOK 16 AT 60’s</h2>
+			</div>
+			<div class="modal-body">
+				<p>“The greatest misconception of weight loss and getting fitter is that age is a stumbling block. It never is, being fit is within everyone’s reach”, One of the articles from Pune mirror, Anil Kapoor said.</p>
+				<p>“Family time has always been important for me to unwind and help think positively. Being healthy includes a stress-free attitude and the most underrated aspects of all sleep”.</p>
+                <p>“One has to understand that results will come once you approach 3 things the right way diet, exercise and sleep”.</p>
+                <p>Adopting a healthy lifestyle free from intoxication, reading about athletes and their endurance, learning about mindsets, good work ethics and good habits from achievers in other fields is great motivator as well”. </p>
+                <p><span>MJM HOSPITAL</span> runs <span>“LIFESTYLE DISEASE CLINIC”</span> in their hospital at Ghole road, Pune. The hospital is instrumental in solving lifestyle problems of patients. </p>
+                <h3>For more details contact: 09769337236</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 4 modal end here -->
+
+<!-- article 5 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>STOP DIABETES</h2>
+			</div>
+			<div class="modal-body">
+				<p><span>Diabetes</span> occur when the level of sugar (glucose) in the blood becomes higher than the normal. This happens when the body can’ make the hormone insulin or stops responding to it.</p>
+				<p>Untreated it can lead to amputations, blindness, kidney illness, stroke, and heart disease. But it can be reversed with lifestyle changes. The standard test for diabetes involves checking for glucose in urine.</p>
+				<p>If it is found a special blood test- Glycated Haemoglobin –is used to check the level of sugar in your blood.</p>
+				<h4>Watch out for the 4T’s:</h4>
+				<p><span>TOILET:</span> Going to toilet a lot, or a previously dry child wetting the bed.</p>
+				<p><span>THIRST:</span> Being really thirsty; unable to quench your thirst.</p>
+				<p><span>TIRED:</span> More than usual.</p>
+				<p><span>THINNER:</span> Unexpected weight loss.</p>
+				<h4>OTHER WARNING SIGNS</h4>
+				<ul>
+					<li>Getting up in the night to use the toilet.</li>
+					<li>Dry mouth.</li>
+					<li>Blurred vision.</li>
+					<li>Recurrent infections.</li>
+					<li>Itching around genitals.</li>
+				</ul>
+				<h4>LIFESTYLE CHANGES HELP:</h4>
+				<p>Whether you have pre-diabetes or the condition is established, making alterations to your routine can still lower the chance of developing some of the nastier complications.</p>
+				<p>MJM HOSPITAL runs “DIABETES CLINIC” in their hospital at ghole road, Pune. The hospital has special programs to help patients in preventing diabetes.</p>
+                <h3>For more details contact: 09769337236.</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 5 modal end here -->
+
+
+<!-- article 6 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal6">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>WHAT IS HERNIA </h2>
+			</div>
+			<div class="modal-body">
+				<h4>If you observe the following:-</h4>
+				<ul>
+					<li>Feel a bulge or a lump through touch.</li>
+					<li>Experience chest pain and discomfort like acid reflux and difficulty in swallowing.</li>
+					<li>Pain, heaviness and weakness in the affected area –while bending, coughing or lifting weights.</li>
+					<li>Nausea or vomiting… You may have HERNIA.</li>
+				</ul>
+				<h4>WHAT IS HERNIA ?</h4>
+				<p>A HERNIA occurs when an organ or fatty tissue squeezes through a weak spot in a surrounding muscle or connective tissue called fascia. It is the abnormal exit of tissue or an organ, such as the bowel, through the wall of the cavity in which it normally resides. Hernias come in a number of different types. Basically it is a bulging of an organ or tissue through an abnormal opening. Most commonly they involve the abdomen. In India, It is very common; there are more than 10 million cases per year.</p>
+				<h4>HOW TO RELIEVE HERNIA PAIN?? </h4>
+				<ul>
+					<li>Use ice packs.</li>
+					<li>Take medication to manage pain.</li>
+					<li>Take medication to treat reflux.</li>
+					<li>Wear a support or truss. </li>
+					<li>Try acupuncture. </li>
+					<li>See a doctor immediately if you are experiencing severe pain. </li>
+					<li>Get surgery.</li>
+				</ul>
+				<p>  <span>MJM Hospital</span> runs <span>“HERNIA CLINIC”</span> in their hospital at Ghole Road, PUNE. The hospital has special programs to help patients in detecting and treating hernia.</p>
+                <h3>For more details contact: 09769337236</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 6 modal end here -->
+
+<!-- article 7 modal start here -->
+<div class="modal fade Artmodal" id="Artmodal7">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" type="button"><span>&times;</span></button>
+				<h2>WORLD HYPERTENSION DAY </h2>
+			</div>
+			<div class="modal-body">
+				<p></p>
+				<h4>Serious Effects of Hypertension are as follow:</h4>
+				<h5>Heart attack</h5>
+				<p>Heart Failure.</p>
+				<p>Sudden Cardiac Arrest - Sudden Cardio Closure.</p>
+				<h5>Kidney Disease </h5>
+				<p>Kidney Failure</p>
+				<p>Migraine with protein</p>
+				<h5>Paralysis </h5>
+				<h5>Vision Result - Blindness</h5>
+				<p>If the diabetes occurs with high blood pressure, the probability of the side effects is doubled. Hypertension is controlled by clinical research, and is being controlled by all the affected families due to treatment.</p>
+				<p>Normal B.P: Normal blood pressure is less than 130/90 (Ideal B.P. 120/80).</p>
+				<p>High B.P: That means the Systolic Pressure is between 100 and 140.</p>
+				<p>Low B.P: That means diastolic pressure varies between 70 to 90.</p>
+				<h4>Preventive measures of Hypertension:-</h4>
+				<ul>
+					<li>Control Weight.</li>
+					<li>Stress management.</li>
+					<li>Avoid alcoholic beverages and Tobacco.</li>
+					<li>Regular exercise, yoga and meditation.</li>
+					<li>Salt restricted diet, avoid Sweet, Spicy and Oily food.</li>
+					<li>Consume Green Leafy Vegetables, Salad, curd and Buttermilk.</li>
+					<li>Avoid Tea, coffee, cold drinks, ice-cream, dessert, butter, cheese.</li>
+					<li>In the case of Obesity: regular exercise like walking, running, swimming, badminton, cycling     is necessary.</li>
+				</ul>
+				<p><span>MJM HOSPITAL</span> took an initiative of celebrating Worlds Hypertension Day in SHIWAJI NAGAR Police Station, Pune by arranging the camp on Basic Health check up comprised of measuring Height, Weight, BMI, BP, BSL and ECG check up.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- article 7 modal end here -->
+
+
+      		<!-- book an appointment -->
+      		<div class="appointment">
+      			<div class="container">
+      				<div class="col-md-9 appointment-left">
+      					<h3>REQUEST APPOINTMENT BOOKING</h3>
+      				</div>
+      				<div class="col-md-3 appointment-right">
+      					<a href="#" class="btn btn-default btn-default_2 pull-left" data-toggle="modal" data-target="#applyModal_1">Request For Appointment</a>
+      					<div class="modal fade" id="applyModal_1" tabindex="-1" role="dialog" aria-labelledby="applyModalLabel" aria-hidden="true">
+      				  	<div class="modal-dialog dialog_3">
+      				    	<div class="modal-content">
+      					      	<div class="modal-header">
+      					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
+      			                         <h3>Make An appointment Now</h3>
+      									 
+      			                        </div></h4>
+      					      	</div>
+      							<div class="modal-body">
+      								<form name="row" method="post" class="register" action="contacts.php">
+                                          <input type="text" name="name" id="name" placeholder="Name" required="">
+                                          <input type="text" name="email" id="Email id" placeholder="Email id" required="">
+                                          <input type="text" name="mobile" id="Mobile Number" placeholder="Mobile Number" required="">
+
+      									<input class="date" name="day" id="datepicker" type="text" value="Appointment date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Appointment date';}" required=>
+      									<select id="sel1" name="spell">
+              									<option>Select Speciality</option>
+              									<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+              									<option>BREAST SURGERY</option>
+              									<option>CARDIOLOGY</option>
+              									<option>CANCER SURGERY</option>
+              									<option>COSMETIC AND PLASTIC SURGERY</option>
+              									<option>CRITICAL CARE MEDICINE</option>
+              									<option>ENT</option>
+              									<option>GENERAL MEDICINE</option>
+              									<option>GENERAL & GI SURGERY</option>
+              									<option>GYNECOLOGY & OBSTETRICS</option>
+              									<option>HAND SURGERY</option>
+              									<option>INTENSIVE CARE MEDICINE</option>
+              									<option>JOINT REPLACEMENT SURGERY</option>
+              									<option>LIVER SURGERY</option>
+              									<option>NEPHROLOGY</option>
+              									<option>NEUROLOGY</option>
+              									<option>NEURO SURGERY</option>
+              									<option>OBESITY SURGERY</option>
+              									<option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+              									<option>PAIN MANAGEMENT</option>
+              									<option>PAEDIATRICS</option>
+              									<option>PAEDIATRICS GASTROENTEROLOGY</option>
+              									<option>PAEDIATRICS NEONATOLOGY</option>
+              									<option>PAEDIATRIC SURGERY</option>
+              									<option>PSYCHIATRY</option>
+              									<option>PHYSIOTHERAPY</option>
+              									<option>RADIOLOGY</option>
+              									<option>SPINE SURGERY</option>
+              									<option>UROLOGY</option>
+              									<option>VASCULAR SURGERY</option>
+
+            									</select>
+      									<textarea type="text" name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Message...';}" required="">Enter Message...</textarea>
+      									<input type="submit" onclick="myFunction()" value="Submit Now">
+      								</form>
+      							</div>
+      							<!---start-date-piker---->
+      								<link rel="stylesheet" href="css/jquery-ui.css" />
+      								<script src="js/jquery-ui.js"></script>
+      									<script>
+      										$(function() {
+      										$( "#datepicker" ).datepicker();
+      										});
+      									</script>
+      							<!---/End-date-piker---->
+                           </div>
+      		         </div>
+      		     </div>
+      				</div>
+      				<div class="clearfix"></div>
+      			</div>
+      		</div>
+      		<!-- //book an appointment -->
+      		
+      		<!-- footer -->
+      		<footer>
+      			<div class="footer-grids">
+      				<div class="container">
+      					<!-- <div class="col-md-3 footer one">
+      						<h3>About Company</h3>
+      						<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of Latin at Hampden-Sydney College in Virginia from a Lorem Ipsum passage, undoubtable source.</p>
+      						<p class="adam">- Patrick Victoria, CEO</p>
+      						<div class="clear"></div>
+      					</div> -->
+      					<div class="col-md-4 footer one tweet">
+      						<h3>Tweets</h3>
+      						<ul>
+      							<li>
+      								<a href="https://twitter.com/HospitalMjm/status/945911073323937793" target="_blank">MJM wins accolades for partnering with Sakal as HEALTH PARTNER for schoolympics. Director Dr. Mukund Joshi and CEO Mr. Mohan Nair receiving trophy from Sakal Management for supporting the social cause.
+      								<i>https://twitter.com/HospitalMjm</i></a>
+      								<span>27 December 2017<span>
+      							</span></span></li>
+      							<!-- <li>
+      								<a href="#"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit. 
+      								<i>http//example.com</i></a>
+      								<span>About a day ago<span>
+      							</span></span></li> -->
+      						</ul>
+      					</div>
+      					<div class="col-md-4 footer two">
+      						<h3>Keep Connected</h3>
+      						<ul>
+      							<li><a class="fb" href="https://www.facebook.com/mjm.hospital.31" target="_blank"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+      							<li><a class="fb1" href="https://twitter.com/HospitalMjm" target="_blank"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+      							<li><a class="fb3" href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank"><i class="fa fa-instagram" ></i>Follow us on Instagram</a></li>
+      							<li><a class="fb4" href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank"><i class="fa fa-linkedin" ></i>Add us on Linkedin</a></li>
+      						</ul>
+      					</div>
+      					<div class="col-md-4 footer three">
+      						<h3>Contact Information</h3>
+      						<ul>
+      							<li><i class="fa fa-map-marker"></i><p>MJM HOSPITAL<span>1194/23 Janardhan Sadan, </span> Ghole Road, Pune - 411005. </p><div class="clearfix"></div> </li>
+      							<li><i class="fa fa-phone"></i><p>+(91)-20-41499999</p> <div class="clearfix"></div> </li>
+      							<li><i class="fa fa-envelope-o"></i><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a> / <a href="mailto:customercare@mjmhospital.com">customercare@mjmhospital.com</a><div class="clearfix"></div></li>
+      						</ul>
+      					</div>
+      					<div class="clearfix"></div>
+      				</div>
+      			</div>
+      			<!-- maps -->
+      			<div id="map">
+      				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.099669705015!2d73.8416031147445!3d18.52439757389223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f3df7fc09%3A0x56439c1a74f36652!2sMJM+HOSPITAL!5e0!3m2!1sen!2sin!4v1509782137465" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      			</div>
+      			<div class="copy-right-grids">
+      				<div class="container">
+      					<div class="copy-left">
+      							<p class="footer-gd">&copy; <script type="text/javascript">  document.write(new Date().getFullYear()); </script> MJM HOSPITAL. All Rights Reserved </p>
+      					</div>
+      					<div class="footer-links">
+      						<!-- <ul>
+      							<li><a href="sitemap.html">Sitemap</a></li>
+      							<li><a href="privacy_policy.html">Privacy Policy</a></li>
+      							<li><a href="terms.html">Terms of Use</a></li>
+      						</ul> -->
+      					</div>
+      					<div class="clearfix"></div>
+      				</div>
+      			</div>
+      		</footer>
+      		<!-- //footer -->
+      		  <link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+      		<script type="text/javascript" src="js/wickedpicker.js"></script>
+      		
+      			<script type="text/javascript">
+      				$('.timepicker').wickedpicker({twentyFour: false});
+      			</script>
+      		<!-- Calendar -->
+      				<link rel="stylesheet" href="css/jquery-ui.css" />
+      				<script src="js/jquery-ui.js"></script>
+      				  <script>
+      						  $(function() {
+      							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+      						  });
+      				  </script>
+      			<!-- //Calendar -->
+      		<script type="text/javascript">
+      						$(document).ready(function() {
+      							/*
+      							var defaults = {
+      					  			containerID: 'toTop', // fading element id
+      								containerHoverID: 'toTopHover', // fading element hover id
+      								scrollSpeed: 1200,
+      								easingType: 'linear' 
+      					 		};
+      							*/
+      							
+      							$().UItoTop({ easingType: 'easeOutQuart' });
+      							
+      						});
+      					</script>
+      				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+      </body>
+      </html>

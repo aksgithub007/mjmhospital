@@ -1,0 +1,612 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MJM Hospital || Specialties</title>
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--//fonts-->	
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="css/theame1.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive-theme1.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>		
+		<!-- js for news -->
+		<script src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/pignose.layerslider.js"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+				$(window).load(function() {
+					$('#visual').pignoseLayerSlider({
+						play    : '.btn-play',
+						pause   : '.btn-pause',
+						next    : '.btn-next',
+						prev    : '.btn-prev'
+					});
+				});
+			//]]>
+			</script>
+		<!-- /js for news -->
+		
+		<!-- for smooth scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+		</script>
+		<!-- //for smooth scrolling -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="top-strip">
+		<div class="container-fluid">
+						<div class="contact_top">
+				<a href="#" data-toggle="modal" data-target="#applyModal_111" class="btn btn-primary">Request an Appointment</a>
+				<a href="article.html" class="btn btn-primary">Articles</a>
+				<a href="services.html" class="btn btn-primary">Specialities</a>
+				<a href="contact.html" class="btn btn-primary">Contact Us</a>
+				<a href="#"><img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </a>
+
+			</div>
+
+			
+			<!-- Modal -->
+  										<div class="modal fade upper_appointment" id="applyModal_111" role="dialog">
+  										  <div class="modal-dialog modal-lg">
+    										  <div class="modal-content">
+     										   	  <div class="modal-header">
+       										      	<button type="button" class="close" data-dismiss="modal">&times;</button>
+       										      	<div class="modal_top">
+       										      		<div class="logo_m">
+       										      		<img src="img/mjm_logo11.png" alt="logo" title="logo">
+       										      	</div>
+       										      	<div class="text_m">
+       										      		<h2>MJM HOSPITAL PUNE</h2>
+       										      		<!-- <p>Care With Concern</p> -->
+       										      	</div>
+       										      	<div class="clearfix"></div>
+       										      	</div>
+       										      	
+      										   	  </div>
+      										    	<div class="modal-body">
+        										  	    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>Make an appointment</h2>
+			<form action="Appointment111.php" method="post">
+			<div class="left-agileits-w3layouts same">
+			<div class="gaps">
+				<p>First Name</p>
+					<input type="text" name="f_name" placeholder="" required=""/>
+			</div>	
+				<div class="gaps">	
+				<p>Last Name</p>
+					<input type="text" name="l_name" placeholder="" required=""/>
+				</div>
+				<div class="gaps">
+				<p>Email</p>
+						<input type="email" name="email" placeholder="" required="" />
+				</div>	
+				<div class="gaps">	
+				<p>Phone Number</p>
+					<input type="text" name="Number" placeholder="" required=""/>
+				</div>
+				
+			</div>
+			<div class="right-agileinfo same">
+			<div class="gaps">
+				<p>Select Date</p>		
+						<input  id="datepicker1" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+			</div>
+			<div class="gaps">
+				<p>Department</p>	
+					<select class="form-control" name="Department">
+						<option></option>
+						<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+						<option>BREAST SURGERY</option>
+						<option>CARDIOLOGY</option>
+						<option>CANCER SURGERY</option>
+						<option>COSMETIC AND PLASTIC SURGERY</option>
+						<option>CRITICAL CARE MEDICINE</option>
+						<option>ENT</option>
+						<option>GENERAL MEDICINE</option>
+						<option>GENERAL & GI SURGERY</option>
+						<option>GYNECOLOGY & OBSTETRICS</option>
+						<option>HAND SURGERY</option>
+                        <option>INTENSIVE CARE MEDICINE</option>
+						<option>JOINT REPLACEMENT SURGERY</option>
+						<option>LIVER SURGERY</option>
+						<option>NEPHROLOGY</option>
+						<option>NEUROLOGY</option>
+						<option>NEURO SURGERY</option>
+                        <option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+						<option>PAIN MANAGEMENT</option>
+						<option>PAEDIATRICS</option>
+						<option>PAEDIATRICS GASTROENTEROLOGY</option>
+						<option>PAEDIATRICS NEONATOLOGY</option>
+						<option>PAEDIATRIC SURGERY</option>
+						<option>PSYCHIATRY</option>
+						<option>RADIOLOGY</option>
+                        <option>SPINE SURGERY</option>
+						<option>UROLOGY</option> 
+						<option>VASCULAR SURGERY</option>
+
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Gender</p>	
+					<select class="form-control" name="gender">
+						<option></option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+			</div>
+			<div class="gaps">
+				<p>Time</p>		
+					<input type="text" id="timepicker" name="Time" class="timepicker form-control" value="">	
+			</div>
+			</div>
+			<div class="clear"></div>
+						  <input type="submit" value="Make an appointment">
+			</form>
+		</div>
+   </div>
+       										    	</div>
+       										    	<!-- <div class="modal-footer">
+        										  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       										    	</div> -->
+     										  </div>
+    										</div>
+ 										 </div>
+  <!-- /*Modal End*/ -->
+			<div class="contact-info">
+				<ul>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+(91)-20-41499999</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a></li>
+				</ul>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<nav class="navbar nav_bottom" role="navigation">
+	 <div class="container-fluid">
+	 <!-- Brand and toggle get grouped for better mobile display -->
+	   <div class="navbar-header nav_2">
+		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="index.html"> <img src="img/mjm_logo.png" alt="MJM Hospital" title="MJM Hospital"></a>                   <!-- Logo Put here -->
+	   </div> 
+	   <!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			<ul class="nav navbar-nav nav_1">
+			  <li><a href="index.html">Home</a></li>
+				<!-- <li class=""><a href="#">About Us</a></li> -->
+				<!-- <li><a href="#">Why Us</a></li> -->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="founders_message.html">Founder’s Dream</a></li>
+					<li><a href="director.html">Management Message</a></li>
+					<li><a href="team.html">Our Management Team</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="facilities.html">Our Facilities</a></li>
+					<!-- <li><a href="technologies.html">Technologies</a></li>
+					<li><a href="instruments.html">Instruments</a></li> -->
+				  </ul>
+				</li>
+				<li class="dropdown current_page">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialities<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu specials columns-3" role="menu">
+				  	<div class="container">
+				  		<div class="row">
+                         <div class="col-xs-12 col-sm-5 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                              <li><a href="services.html">ARTHOSCOPY & SHOULDER SURGERY</a></li>
+                              <li><a href="breast_surgery.html">BREAST SURGERY</a></li>
+                              <li><a href="cardiology.html">CARDIOLOGY</a></li>
+                              <li><a href="cancer_surgery.html">CANCER SURGERY</a></li>
+                              <li><a href="cosmetic_plastic_surgery.html">COSMETIC AND PLASTIC SURGERY</a></li>
+                              <li><a href="critical_care_medicine.html">CRITICAL CARE MEDICINE</a></li>
+                              <li><a href="ent.html">ENT</a></li>
+                              <li><a href="general_medicine.html">GENERAL MEDICINE</a></li>
+                              <li><a href="general_gi_surgery.html">GENERAL & GI SURGERY</a></li>
+                              <li><a href="gynecology_obstetrics.html">GYNECOLOGY & OBSTETRICS</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="col-xs-12 col-sm-4 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="hand_surgery.html" >HAND SURGERY</a></li>
+                                <li><a href="intensive_care.html" >INTENSIVE CARE MEDICINE</a></li>
+                                <li><a href="joint_replacement_surgery.html">JOINT REPLACEMENT SURGERY</a></li>
+                                <li><a href="liver_surgery.html">LIVER SURGERY</a></li>
+                                <li><a href="nephrology.html">NEPHROLOGY</a></li>
+                                <li><a href="neurology.html">NEUROLOGY</a></li>
+                                <li><a href="neuro_surgery.html">NEURO SURGERY</a></li>
+                                <li><a href="obesity_surgery.html">OBESITY SURGERY</a></li>
+                                <li><a href="orthopedic_joint_replacement.html">ORTHOPEDIC AND JOINT REPLACEMENT</a></li>
+                                <li><a href="pain_management.html">PAIN MANAGEMENT</a></li>
+                            </ul>
+                          </div>  
+                      </div>
+                      <div class="col-xs-12 col-sm-3 col-md-4">
+                          <div class="inner_menu_box">
+                            <ul class="multi-column-dropdown clearfix">
+                                <li><a href="paediatrics.html" >PAEDIATRICS</a></li>
+                                <li><a href="paediatrics_gastroenterology.html">PAEDIATRICS GASTROENTEROLOGY</a></li>
+                                <li><a href="paediatrics_neonatology.html">PAEDIATRICS NEONATOLOGY</a></li>
+                                <li><a href="paediatrics_surgery.html">PAEDIATRIC SURGERY</a></li>
+                                <li><a href="psychiatry.html">PSYCHIATRY</a></li>
+                                <li><a href="physiotherapy.html">PHYSIOTHERAPY</a></li>
+                                <li><a href="radiology.html">RADIOLOGY</a></li>
+                                <li><a href="spine_surgery.html">SPINE SURGERY</a></li>
+                                <li><a href="urology.html">UROLOGY</a></li>
+                                <li><a href="vascular_surgery.html">VASCULAR SURGERY</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="clr_float"></div>
+                    </div></div>
+					
+				  </ul>
+				</li>
+				<!-- <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="#">Our Lab<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="career.html">Careers</a></li>
+					<li><a href="404.html">Franchisee</a></li>
+				  </ul>
+				</li> -->
+				<li class="dropdown">
+				  <a href="#news" class="dropdown-toggle" data-toggle="#">News<!-- <span class="caret"></span> --></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="news.html">News</a></li>
+					<li><a href="faq.html">Faq</a></li>
+					<li><a href="mobile-app.html">App</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="shortcodes.html">Shortcodes</a></li>
+					<li><a href="privacy_policy.html">Privacy Policy</a></li>
+				  </ul>
+				</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<!-- <li><a href="#">Blog</a></li> -->
+				<li><a href="contact.html">Contact Us</a></li>
+				<li> <img src="img/small_logo.png" alt="small_logo" title="small_logo" class="img-responsive small_logo">  </li>
+			</ul>
+		 </div><!-- /.navbar-collapse -->
+	   </div>
+	</nav>
+	<!-- //header -->
+	<!-- shortcodes-section -->
+		<section class="typography">
+				<div class="container soci_container">
+			<div class="soci soci_facilities">
+				<ul>
+					<li><a href="https://www.facebook.com/mjm.hospital.31" target="_blank" class="fb"><i class="fa fa-facebook fa-fw"></i></a></li>
+					<li><a href="https://twitter.com/HospitalMjm" target="_blank" class="twit"><i class="fa fa-twitter fa-fw"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank" class="link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+					<li><a href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank" class="insta"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    
+				</ul>
+				
+			</div>
+
+		</div>
+			<div class="inner-banner demo-2 text-center">
+				<header class="logo">
+					<h1><a class="cd-logo link link--takiri" href="index.html">MJM Hospital<span>Care With Concern</span></a></h1>
+				</header>
+				<div id="breadcrumb_wrapper">
+					<div class="container">		
+						<h2>Specialities</h2>
+						<!-- <h6>add a short description here</h6> -->
+					</div>
+				</div>
+			</div>
+		<!-- shortcodes-section -->
+		<!-- social slider start here -->
+         	     	<div class="socialsss">
+          <ul>
+              <li><a href="#" data-toggle="modal" data-target="#applyModal_1">Make an Appointment<i class="fa fa-calendar fa-fw"></i></a></li>
+              <li><a href="#">Find a Doctor <i class="fa fa-stethoscope fa-fw"></i></a></li>
+              <li><a href="#">Ask a Doctor <i class="fa fa-user-md fa-fw"></i></a></li>
+              <li><a href="#">Request a Free Quoate <i class="fa fa-rupee fa-fw"></i></a></li>
+              <!-- <li><a href="http://behance.net/gianm">OPD Schedule <i class="fas fa-clock fa-fw"></i></a></li> -->
+          </ul>
+      </div>
+		<!-- social section end here -->
+		     <section>
+        <div id="service_1" class="service_details_page">
+            <div class="container">         
+                
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-8">
+                        <div class="row service_details_wrap">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <!-- <div class="service_img_box">
+                                    <img src="img/service.jpg" alt="our services image" class="img-responsive" />
+                                </div>  -->                               
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="service_info_wrap">
+                                	<h3>CANCER SURGERY</h3>
+                                    <p>The surgical oncology department has a team of qualified and trained surgical and urologic oncologists for every aspect of surgical management for cancer patients. All types of cancer surgeries are done as per international standard in the state-of-art operation theatres. The surgical team is backed by a well equipped postoperative intensive care unit for smooth recovery of all patients. The surgeons have a close liaison with the medical and radiation oncology department and work as a team. The patient and family members benefit from a strong social support group of volunteers attached to this institute.</p>
+                                    <p>The surgeon performs the latest techniques in cancer surgery including organ and function preserving surgeries and laser surgery. Breast conserving surgery is performed and where this is not appropriate, breast reconstruction is offered to all patients.</p>
+                                    <p>Larynx preserving surgery is also performing in this institute. Radical prostate cancer and bladder cancer surgery is performed routinely on patients referred from all over the country.</p>
+                                    <p>Some of the other services rendered are breast screening and early diagnosis, leucoplakia management, hematuria management, early prostate cancer diagnosis stoma rehabilitation, occupational therapy and speech rehabilitation.</p>
+                                   <!--  <div class="service_features">
+                                    	<h3>OUR SPECIALITY</h3>
+                                        <h4>HYPERTENSION:</h4>
+                                        <ul>
+                                            <li>We offer services for elevated blood pressure, which is significantly related to many heart conditions.
+                                            </li>
+                                        </ul>
+                                    </div> -->    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                     <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="sidebar">
+                            <ul>
+                                <li><a href="services.html">ARTHOSCOPY & SHOULDER SURGERY</a></li>
+                              	<li><a href="breast_surgery.html">BREAST SURGERY</a></li>
+                              	<li><a href="cardiology.html">CARDIOLOGY</a></li>
+                              	<li><a href="cancer_surgery.html" class="active">CANCER SURGERY</a></li>
+                              	<li><a href="cosmetic_plastic_surgery.html">COSMETIC AND PLASTIC SURGERY</a></li>
+                              	<li><a href="critical_care_medicine.html">CRITICAL CARE MEDICINE</a></li>
+                              	<li><a href="ent.html">ENT</a></li>
+                              	<li><a href="general_medicine.html">GENERAL MEDICINE</a></li>
+                              	<li><a href="general_gi_surgery.html">GENERAL & GI SURGERY</a></li>
+                              	<li><a href="gynecology_obstetrics.html">GYNECOLOGY & OBSTETRICS</a></li>
+                                <li><a href="hand_surgery.html">HAND SURGERY</a></li>
+                                <li><a href="intensive_care.html">INTENSIVE CARE MEDICINE</a></li>
+                                <li><a href="joint_replacement_surgery.html">JOINT REPLACEMENT SURGERY</a></li>
+                                <li><a href="liver_surgery.html">LIVER SURGERY</a></li>
+                                <li><a href="nephrology.html">NEPHROLOGY</a></li>
+                                <li><a href="neurology.html">NEUROLOGY</a></li>
+                                <li><a href="neuro_surgery.html">NEURO SURGERY</a></li>
+                                <li><a href="obesity_surgery.html">OBESITY SURGERY</a></li>
+                                <li><a href="orthopedic_joint_replacement.html">ORTHOPEDIC AND JOINT REPLACEMENT</a></li>
+                                <li><a href="pain_management.html">PAIN MANAGEMENT</a></li>
+                                <li><a href="paediatrics.html">PAEDIATRICS</a></li>
+                                <li><a href="paediatrics_gastroenterology.html">PAEDIATRICS GASTROENTEROLOGY</a></li>
+                                <li><a href="paediatrics_neonatology.html">PAEDIATRICS NEONATOLOGY</a></li>
+                                <li><a href="paediatrics_surgery.html">PAEDIATRIC SURGERY</a></li>
+                                <li><a href="psychiatry.html">PSYCHIATRY</a></li>
+                                <li><a href="physiotherapy.html">PHYSIOTHERAPY</a></li>
+                                <li><a href="radiology.html">RADIOLOGY</a></li>
+                                <li><a href="spine_surgery.html">SPINE SURGERY</a></li>
+                                <li><a href="urology.html">UROLOGY</a></li>
+                                <li><a href="vascular_surgery.html">VASCULAR SURGERY</a></li>
+                               <!--  <li><a href="service_details.html">PAEDIATRICS</a></li>
+                                <li><a href="service_details.html">PAEDIATRICS</a></li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                        
+                </div>
+                  
+                
+            </div>
+        </div>
+        </section>
+		<!-- //shortcodes-section -->
+		<!-- book an appointment -->
+		<div class="appointment">
+			<div class="container">
+				<div class="col-md-9 appointment-left">
+					<h3>REQUEST APPOINTMENT BOOKING</h3>
+				</div>
+				<div class="col-md-3 appointment-right">
+					<a href="#" class="btn btn-default btn-default_2 pull-left" data-toggle="modal" data-target="#applyModal_1">Request For Appointment</a>
+					<div class="modal fade" id="applyModal_1" tabindex="-1" role="dialog" aria-labelledby="applyModalLabel" aria-hidden="true">
+				  	<div class="modal-dialog dialog_3">
+				    	<div class="modal-content">
+					      	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
+			                         <h3>Make An appointment Now</h3>
+									 
+			                        </div></h4>
+					      	</div>
+							<div class="modal-body">
+								<form name="row" method="post" class="register" action="contacts.php">
+                                    <input type="text" name="name" id="name" placeholder="Name" required="">
+                                    <input type="text" name="email" id="Email id" placeholder="Email id" required="">
+                                    <input type="text" name="mobile" id="Mobile Number" placeholder="Mobile Number" required="">
+
+									<input class="date" name="day" id="datepicker" type="text" value="Appointment date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Appointment date';}" required=>
+									<select  id="sel1" name="spell">
+        									<option>Select Speciality</option>
+        									<option>ARTHOSCOPY & SHOULDER SURGERY</option>
+        									<option>BREAST SURGERY</option>
+        									<option>CARDIOLOGY</option>
+        									<option>CANCER SURGERY</option>
+        									<option>COSMETIC AND PLASTIC SURGERY</option>
+        									<option>CRITICAL CARE MEDICINE</option>
+        									<option>ENT</option>
+        									<option>GENERAL MEDICINE</option>
+        									<option>GENERAL & GI SURGERY</option>
+        									<option>GYNECOLOGY & OBSTETRICS</option>
+        									<option>HAND SURGERY</option>
+        									<option>INTENSIVE CARE MEDICINE</option>
+        									<option>JOINT REPLACEMENT SURGERY</option>
+        									<option>LIVER SURGERY</option>
+        									<option>NEPHROLOGY</option>
+        									<option>NEUROLOGY</option>
+        									<option>NEURO SURGERY</option>
+        									<option>OBESITY SURGERY</option>
+        									<option>ORTHOPEDIC AND JOINT REPLACEMENT</option>
+        									<option>PAIN MANAGEMENT</option>
+        									<option>PAEDIATRICS</option>
+        									<option>PAEDIATRICS GASTROENTEROLOGY</option>
+        									<option>PAEDIATRICS NEONATOLOGY</option>
+        									<option>PAEDIATRIC SURGERY</option>
+        									<option>PSYCHIATRY</option>
+        									<option>PHYSIOTHERAPY</option>
+        									<option>RADIOLOGY</option>
+        									<option>SPINE SURGERY</option>
+        									<option>UROLOGY</option>
+        									<option>VASCULAR SURGERY</option>
+
+      									</select>
+									<textarea type="text" name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Message...';}" required="">Enter Message...</textarea>
+									<input type="submit" onclick="myFunction()" value="Submit Now">
+								</form>
+							</div>
+							<!---start-date-piker---->
+								<link rel="stylesheet" href="css/jquery-ui.css" />
+								<script src="js/jquery-ui.js"></script>
+									<script>
+										$(function() {
+										$( "#datepicker" ).datepicker();
+										});
+									</script>
+							<!---/End-date-piker---->
+                     </div>
+		         </div>
+		     </div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- //book an appointment -->
+		
+		<!-- footer -->
+		<footer>
+			<div class="footer-grids">
+				<div class="container">
+					<!-- <div class="col-md-3 footer one">
+						<h3>About Company</h3>
+						<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of Latin at Hampden-Sydney College in Virginia from a Lorem Ipsum passage, undoubtable source.</p>
+						<p class="adam">- Patrick Victoria, CEO</p>
+						<div class="clear"></div>
+					</div> -->
+					<div class="col-md-4 footer one tweet">
+						<h3>Tweets</h3>
+						<ul>
+							<li>
+								<a href="https://twitter.com/HospitalMjm/status/945911073323937793" target="_blank">MJM wins accolades for partnering with Sakal as HEALTH PARTNER for schoolympics. Director Dr. Mukund Joshi and CEO Mr. Mohan Nair receiving trophy from Sakal Management for supporting the social cause.
+								<i>https://twitter.com/HospitalMjm</i></a>
+								<span>27 December 2017<span>
+							</span></span></li>
+							<!-- <li>
+								<a href="#"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit. 
+								<i>http//example.com</i></a>
+								<span>About a day ago<span>
+							</span></span></li> -->
+						</ul>
+					</div>
+					<div class="col-md-4 footer two">
+						<h3>Keep Connected</h3>
+						<ul>
+							<li><a class="fb" href="https://www.facebook.com/mjm.hospital.31" target="_blank"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+							<li><a class="fb1" href="https://twitter.com/HospitalMjm" target="_blank"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+							<li><a class="fb3" href="https://www.instagram.com/mjmhospital/?hl=en" target="_blank"><i class="fa fa-instagram" ></i>Follow us on Instagram</a></li>
+							<li><a class="fb4" href="https://www.linkedin.com/in/mjm-hospital-7964a8156/" target="_blank"><i class="fa fa-linkedin" ></i>Add us on Linkedin</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 footer three">
+						<h3>Contact Information</h3>
+						<ul>
+							<li><i class="fa fa-map-marker"></i><p>MJM HOSPITAL<span>1194/23 Janardhan Sadan, </span> Ghole Road, Pune - 411005. </p><div class="clearfix"></div> </li>
+							<li><i class="fa fa-phone"></i><p>+(91)-20-41499999</p> <div class="clearfix"></div> </li>
+							<li><i class="fa fa-envelope-o"></i><a href="mailto:info@mjmhospital.com">info@mjmhospital.com</a> <a href="mailto:customercare@mjmhospital.com">customercare@mjmhospital.com</a><div class="clearfix"></div></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- maps -->
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.099669705015!2d73.8416031147445!3d18.52439757389223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f3df7fc09%3A0x56439c1a74f36652!2sMJM+HOSPITAL!5e0!3m2!1sen!2sin!4v1509782137465" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="copy-right-grids">
+				<div class="container">
+					<div class="copy-left">
+							<p class="footer-gd">&copy; <script type="text/javascript">  document.write(new Date().getFullYear()); </script> MJM HOSPITAL. All Rights Reserved </p>
+					</div>
+					<div class="footer-links">
+						<!-- <ul>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a href="privacy_policy.html">Privacy Policy</a></li>
+							<li><a href="terms.html">Terms of Use</a></li>
+						</ul> -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</footer>
+		<!-- //footer -->
+		  <link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+		<script type="text/javascript" src="js/wickedpicker.js"></script>
+		
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+		<!-- Calendar -->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
