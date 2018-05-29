@@ -2439,7 +2439,6 @@ p.adam{
     font-family: 'Montserrat', sans-serif;
 }
 .tweet ul li:nth-child(1) {
-	border-bottom: 1px solid #404040;
 	margin-bottom:12px;
 	padding-bottom:12px;
 }
