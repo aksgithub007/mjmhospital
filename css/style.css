@@ -460,7 +460,7 @@ header.logo {
 .socialsss {
   position: fixed;
   top: 42%;
-  z-index: 999999;
+  z-index: 999999999;
 }
 .socialsss ul {
   padding: 0px;
@@ -487,11 +487,11 @@ header.logo {
   transition: all 1s;
 }
 .socialsss ul li:hover {
-  -webkit-transform: translate(230px, 0);
-  -moz-transform: translate(230px, 0);
-  -ms-transform: translate(230px, 0);
-  -o-transform: translate(230px, 0);
-  transform: translate(230px, 0);
+  -webkit-transform: translate(180px, 0);
+  -moz-transform: translate(180px, 0);
+  -ms-transform: translate(180px, 0);
+  -o-transform: translate(180px, 0);
+  transform: translate(180px, 0);
   background: rgba(255, 255, 255, 0.4);
 }
 .socialsss ul li:hover a {
